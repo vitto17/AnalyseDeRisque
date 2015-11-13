@@ -1,0 +1,142 @@
+<list>
+  <Agriculteur>
+    <nom>PIGNOREL</nom>
+    <prenom>Franck</prenom>
+    <adresse1>Les Chesnaies</adresse1>
+    <actif>true</actif>
+    <codePostal>88550</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>PITOISETTE</nom>
+    <prenom>frederic</prenom>
+    <adresse1>HOTEL VIGNETTE</adresse1>
+    <actif>true</actif>
+    <codePostal>16410</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>GUINFOLLEAU</nom>
+    <prenom>yaëlle</prenom>
+    <adresse1>9 RUE DE VILLIERS</adresse1>
+    <actif>true</actif>
+    <codePostal>59178</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>CHESNEL</nom>
+    <prenom>ben saïde</prenom>
+    <adresse1>LA FAVROTIERE héhé</adresse1>
+    <actif>false</actif>
+    <codePostal>58190</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>BOUCLEINVILLE</nom>
+    <prenom>cathelyne</prenom>
+    <adresse1>La Maroutie</adresse1>
+    <actif>false</actif>
+    <codePostal>53250</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>BENIER</nom>
+    <prenom>jojo</prenom>
+    <adresse1>359 AVENUE GUILLAUME FICHET</adresse1>
+    <actif>false</actif>
+    <codePostal>31000</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>BROSSAT</nom>
+    <prenom>marie cecile</prenom>
+    <adresse1>647 RUE DE NEUVILLE</adresse1>
+    <actif>false</actif>
+    <codePostal>23340</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>GAVERIAUX</nom>
+    <prenom>moira</prenom>
+    <adresse1>1310, CHEMIN LARRUE</adresse1>
+    <actif>false</actif>
+    <codePostal>13450</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>MICHELETTO</nom>
+    <prenom>anne-carole</prenom>
+    <adresse1>17 RUE DU LAVANDIN</adresse1>
+    <actif>false</actif>
+    <codePostal>55100</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>BALDE</nom>
+    <prenom>Madiara</prenom>
+    <adresse1>Amiens</adresse1>
+    <actif>true</actif>
+    <codePostal>31650</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>BOUBEKER</nom>
+    <prenom>Hicham</prenom>
+    <adresse1>Bordeaux</adresse1>
+    <actif>true</actif>
+    <codePostal>31210</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>test</nom>
+    <prenom>test</prenom>
+    <adresse1>Brest</adresse1>
+    <actif>true</actif>
+    <codePostal>31326</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>MACHIN</nom>
+    <prenom>PAUL</prenom>
+    <adresse1>Paris</adresse1>
+    <actif>true</actif>
+    <codePostal>31326</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>MICHOU</nom>
+    <prenom>bastien</prenom>
+    <adresse1>Anne-carole</adresse1>
+    <actif>true</actif>
+    <codePostal>31840</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>RIBERY</nom>
+    <prenom>Franck</prenom>
+    <adresse1>Rue de la licorne Tournefeuille</adresse1>
+    <actif>true</actif>
+    <codePostal>31170</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>Nobody</nom>
+    <prenom>DontKnow</prenom>
+    <adresse1>Rue pouzonville</adresse1>
+    <actif>true</actif>
+    <codePostal>31840</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>Duponteld</nom>
+    <prenom>Jean</prenom>
+    <adresse1>Route de seysse</adresse1>
+    <actif>true</actif>
+    <codePostal>75015</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>Dumm</nom>
+    <prenom>Mike</prenom>
+    <adresse1>Blagnac</adresse1>
+    <actif>true</actif>
+    <codePostal>31200</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>BENZEMA</nom>
+    <prenom>Karim</prenom>
+    <adresse1>Montpellier</adresse1>
+    <actif>true</actif>
+    <codePostal>31650</codePostal>
+  </Agriculteur>
+  <Agriculteur>
+    <nom>EVRA</nom>
+    <prenom>Patrice</prenom>
+    <adresse1>Rouen</adresse1>
+    <actif>true</actif>
+    <codePostal>31840</codePostal>
+  </Agriculteur>
+</list>

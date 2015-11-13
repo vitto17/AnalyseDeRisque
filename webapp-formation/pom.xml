@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--
+    **********************************************************************
+    Héritage
+    **********************************************************************
+    Ici on récupère du paramétrage standard (dit "pom de base" du MAP),
+    allégeant le paramétrage nécessaire au niveau de chaque projet.
+    -->
+    <parent>
+        <groupId>fr.gouv.agriculture.pro.formasio</groupId>
+        <artifactId>step17</artifactId>
+        <version>5.2.1</version>
+    </parent>
+    <!--
+    **********************************************************************
+    Identification du projet.
+    **********************************************************************
+    -->
+    <groupId>fr.gouv.agriculture.pro.formasio</groupId>
+    <artifactId>webapp-step17</artifactId>
+    <packaging>war</packaging>
+    <name>Webapp Formation ORION - Step 17</name>
+
+    <url>https://${reports.service.server}/pro+/${project.artifactId}/${url-path}/</url>
+
+    <!--
+    **********************************************************************
+    Propriétés.
+    **********************************************************************
+    Un façon de factoriser du paramétrage, ou de le rendre plus lisible.
+    C'est notamment ici que l'on peut ajouter project.build.sourceEncoding
+    pour changer l'encoding du code source.
+    -->
+    <properties>
+        <!-- AspectJ -->
+        <aspectj-maven-plugin.version>1.3</aspectj-maven-plugin.version>
+        <aspectj.version>1.6.12</aspectj.version>
+    </properties>
+
+    <!--
+    **********************************************************************
+    Section Dépendances.
+    **********************************************************************
+    Liste des artifacts (jars, zips, wars, ejbs, rars, etc.) dont ce
+    projet a besoin pour être compilé, testé ou/et exécuté.
+    -->
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>jsf-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.faces</groupId>
+            <artifactId>jsf-impl</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-persistence-api</artifactId>
+            <version>5.2.4</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- ORION dependencies-->
+        <dependency>
+            <groupId>fr.gouv.agriculture.o2</groupId>
+            <artifactId>o2-transaction-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.o2</groupId>
+            <artifactId>o2-transaction-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.o2</groupId>
+            <artifactId>o2-kernel</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.o2</groupId>
+            <artifactId>o2-kernel-spring</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-web-api</artifactId>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-security-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-web-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-security-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-web-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-faces-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-faces-standard</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-less-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-bootstrap-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-gray-theme</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-blue-theme</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-green-theme</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.orion</groupId>
+            <artifactId>orion-orange-theme</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- SGBD -->
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        
+        <!-- version nécessiare pour utilisation grammaire JDBC 4 : AgriculteurReportJDBCDAO -->
+<!--         <dependency>
+                <groupId>com.mchange</groupId>
+                <artifactId>c3p0</artifactId>
+                <version>0.9.5</version>
+                <scope>runtime</scope>
+         </dependency>-->
+            
+        <dependency>
+            <groupId>p6spy</groupId>
+            <artifactId>p6spy</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <!-- Implémentation de SLF4J vers laquelle tous les logs sont redirigés -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+        <!-- Bridge pour intercepter les appels JCL tiré par unitils-core -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+        </dependency>
+        <!-- Traduction des appels vers JUL (logger JVM) fait par JSF vers SLF4J-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jul-to-slf4j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Dependances pour ors nécessaires à l'execution -->
+        <!-- Activation des dépendances pour ORS -->
+        
+<!--       <dependency>
+           <groupId>fr.gouv.agriculture.ors</groupId>
+           <artifactId>ors-qcf</artifactId>
+           <version>2.0.1</version>
+           <classifier>${env}</classifier>
+       </dependency>-->
+        
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>slide</groupId>
+            <artifactId>slide-webdavlib</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-discovery</groupId>
+            <artifactId>commons-discovery</artifactId>
+        </dependency>
+
+        <!-- Tests -->
+        <dependency>
+            <groupId>fr.gouv.agriculture.o2</groupId>
+            <artifactId>o2-junit-support</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>fr.gouv.agriculture.o2</groupId>
+            <artifactId>o2-kernel-test-support</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.unitils</groupId>
+            <artifactId>unitils-core</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <!-- Utilisation du bridge jcl-over-slf4j -->
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.unitils</groupId>
+            <artifactId>unitils-easymock</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.unitils</groupId>
+            <artifactId>unitils-inject</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!--
+    **********************************************************************
+    Section "build".
+    **********************************************************************
+    Regroupe tout le paramétrage des plugins relatifs au build du projet.
+    C'est ici que l'on active des plugins specifiques, et que l'on
+    configure les plugins activés automatiquements (comme compiler,
+    install, war, etc.).
+    -->
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <!--
+                Un tissage AspectJ est nécessaire pour appliquer transactions,
+                droits et autres éléments du framework. Le JDK utilisé pour
+                compiler et l'encoding des sources est donné par le pom de base.
+                -->
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>aspectj-maven-plugin</artifactId>
+                <version>${aspectj-maven-plugin.version}</version>
+                <configuration>
+                    <complianceLevel>${project.build.jdk}</complianceLevel>
+                    <source>${project.build.jdk}</source>
+                    <target>${project.build.jdk}</target>
+                    <aspectLibraries>
+                        <!-- Support de @Inject -->
+                        <aspectLibrary>
+                            <groupId>fr.gouv.agriculture.o2</groupId>
+                            <artifactId>o2-kernel-spring</artifactId>
+                        </aspectLibrary>
+                        <!-- Support des transactions -->
+                        <aspectLibrary>
+                            <groupId>fr.gouv.agriculture.o2</groupId>
+                            <artifactId>o2-transaction-impl</artifactId>
+                        </aspectLibrary>
+                    </aspectLibraries>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjrt</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjtools</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                            <goal>test-compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!--
+    **********************************************************************
+    Section Profils
+    **********************************************************************
+    Les profils sont des bouts de pom.xml qui peuvent être activés en
+    fonction du contexte. Ici, nous les utilisons pour adapter les wars
+    générés en fonction de l'environnement cible (dev, intégration,
+    production, etc.).
+    -->
+    <profiles>
+        <!-- Profil de l'environnement de développement -->
+        <profile>
+            <id>env.developpement</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+                <property>
+                    <name>env</name>
+                    <value>developpement</value>
+                </property>
+            </activation>
+            <properties>
+                <env>developpement</env>
+            </properties>
+            <build>
+                <resources>
+                    <!--
+                    La définition des ressources à exclure et inclure pour le
+                    répertoire src/main/resources doit obligatoirement être réalisé
+                    ici. L'exclusion du répertoire private ne doit en aucun cas être
+                    modifié ou supprimé.
+                    -->
+                    <resource>
+                        <directory>src/main/resources</directory>
+                        <excludes>
+                            <exclude>env.properties</exclude>
+                            <exclude>logback.xml</exclude>
+                            <exclude>env/</exclude>
+                        </excludes>
+                        <includes>
+                            <include>**/**</include>
+                        </includes>
+                    </resource>
+                    <!--
+                    L'inclusion de fichiers du sous répertoire src/main/resources/env
+                    autre que ceux qui peuvent être définis ci dessous sont prohibés
+                    -->
+                    <resource>
+                        <directory>src/main/resources/env/developpement</directory>
+                        <includes>
+                            <include>env.properties</include>
+                            <include>logback.xml</include>
+                        </includes>
+                    </resource>
+                </resources>
+            </build>
+        </profile>
+    </profiles>
+</project>

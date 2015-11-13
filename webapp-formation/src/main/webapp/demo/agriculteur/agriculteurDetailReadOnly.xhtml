@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition template="/template/splitpanel-template.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:o="http://orion.agriculture-gouv.fr/standard">
+
+    <ui:param name="pageLabel" value="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.action.view']}"/>
+
+    <ui:define name="title">
+        #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurForm.details']}
+    </ui:define>
+
+    <ui:define name="leftContent" ><ui:include src="/demo/agriculteur/agriculteurMenu.xhtml" /></ui:define>
+    <ui:define name="rightContent">
+        <o:box id="msgAccueil"> 
+            <o:boxHeader>
+                <h2>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurForm.details']}</h2>
+            </o:boxHeader>
+            <o:boxBody>
+                <o:form id="agriculteurForm" controllerRef="agriculteurFC"
+                        var="agriculteur"
+                        groupIds="refresh-default-group">
+                    <o:vcontrols>
+
+                        <!-- Définition des onglets. L'onglet dont l'id est "civility" est celui sélectionné par défaut -->
+                        <o:tabPanels selected="civility" rememberLastSelected="true">
+                            <!-- Définition des onglets et de leurs libellés -->
+                            <o:tabs>
+                                <!-- Définition de l'onglet de civilités -->
+                                <o:tab>
+                                    <o:clickableTab target="civility">
+                                        #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursTab.civility']}
+                                    </o:clickableTab>
+                                </o:tab>
+                                <!-- Définition de l'onglet d'adresse -->
+                                <o:tab>
+                                    <o:clickableTab target="address">
+                                        #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursTab.address']}
+                                    </o:clickableTab>
+                                </o:tab>
+                                <!-- Définition de l'onglet d'activité -->
+                                <o:tab>
+                                    <o:clickableTab target="activity">
+                                        #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursTab.activity']}
+                                    </o:clickableTab>
+                                </o:tab>
+                                <!-- Définition de l'onglet de parcelles -->
+                                <o:tab>
+                                    <o:clickableTab target="parcelles">
+                                        #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursTab.parcelles']}
+                                    </o:clickableTab>
+                                </o:tab>
+                            </o:tabs>
+                            <o:tabPanel id="civility">
+                                <!-- Le contenu de l'onglet de civilités -->
+                                <ui:insert name="agriculteurCivility">
+                                    <ui:include src="/demo/agriculteur/includes/agriculteurTabCivility.xhtml" />
+                                </ui:insert>
+                            </o:tabPanel>
+                            <o:tabPanel id="address">
+                                <!-- Définition du contenu de l'onglet d'adresse -->
+
+                                <ui:insert name="agriculteurAddress">
+                                    <ui:include src="/demo/agriculteur/includes/agriculteurTabAddress.xhtml" />
+                                </ui:insert>
+                            </o:tabPanel>
+                            <o:tabPanel id="activity">
+                                <!-- Définition du contenu de l'onglet d'activité -->
+                                <ui:insert name="agriculteurActivity">
+                                    <ui:include src="/demo/agriculteur/includes/agriculteurTabActivity.xhtml" />
+                                </ui:insert>
+                            </o:tabPanel>
+                            <o:tabPanel id="parcelles">
+                                <!-- Définition du contenu de l'onglet de parcelles -->
+                                <ui:insert name="parcelleSlaveList">
+                                    <o:slaveList id="parcelleSlaveList" controllerRef="parcelleSLC">
+                                        <ui:include src="/demo/parcelle/includes/parcellesList.xhtml" />
+                                    </o:slaveList>
+                                </ui:insert>
+                            </o:tabPanel>
+                        </o:tabPanels>
+
+                        <o:control >
+                            <o:buttonSet>
+                                <o:backButton />
+                            </o:buttonSet>
+                        </o:control>
+                    </o:vcontrols>
+                </o:form>
+            </o:boxBody>
+        </o:box>
+    </ui:define>
+</ui:composition>

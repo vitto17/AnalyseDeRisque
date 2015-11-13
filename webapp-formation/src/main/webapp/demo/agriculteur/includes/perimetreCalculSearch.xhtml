@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets" 
+                xmlns:o="http://orion.agriculture-gouv.fr/standard"
+                xmlns:oq="http://orion.agriculture-gouv.fr/query"
+                xmlns:co="http://orion.agriculture-gouv.fr/core">
+
+    <o:row>
+        <o:col3>
+            <h3>#{Messages['fr.gouv.agriculture.pro.demo.ihm.perimetreCalculSearch.help']}</h3>                        
+            <p align="justify">#{Messages['fr.gouv.agriculture.pro.demo.ihm.perimetreCalculSearch.help.1']}</p>
+        </o:col3>
+        <o:col9>
+            <oq:queryForm var="query" controllerRef="perimetreCalculQFPC" prefVar="pref">
+                <o:vcontrols>
+                    <ui:insert name="perimetreCalculSearchPreferencesLoad">
+                        <ui:include src="/demo/agriculteur/includes/perimetreCalculSearchPreferencesLoad.xhtml" />
+                    </ui:insert>
+
+                    <o:fieldset id="perimetreCalculSearch">
+                        <o:legend>#{Messages['fr.gouv.agriculture.pro.demo.ihm.perimetreCalculSearch.legend']}</o:legend>   
+                        <oq:conjunction>
+                            <o:control>
+                                <o:label>#{Messages['analyseRisque.campagne.shortLabel']}</o:label>
+                                <o:comboBox id="campagneChoice"
+                                            value="#{perimetreCalcul.campagne}"
+                                            displayLabelProperty="libelle"
+                                            controllerRef="perimetreCalculCampagneLC"
+                                            title="">
+                                </o:comboBox>
+                            </o:control>
+                            <o:control>
+                                <o:label>#{Messages['analyseRisque.dossierTechnique.shortLabel']}</o:label>
+                                <o:comboBox id="dossierTechniqueChoice"
+                                            value="#{perimetreCalcul.dossierTechnique}"
+                                            displayLabelProperty="libelle"
+                                            controllerRef="perimetreCalculDossierTechniqueLC"
+                                            title="">
+                                </o:comboBox>
+                            </o:control>
+                            <o:control>
+                                <o:label>#{Messages['analyseRisque.simule.shortLabel']}</o:label>
+                                <o:radio id="simuleIndifferent"
+                                         title="simuleIndifferent"
+                                         controllerRef="simuleRC"
+                                         value="#{perimetreCalcul.simule}"/>
+                            </o:control>
+                        </oq:conjunction>
+                        <o:buttonSet>
+                            <oq:executeQueryButton>
+                                <co:ajax execute="@form" render="perimetreCalculListTable"/>
+                            </oq:executeQueryButton>
+                        </o:buttonSet>
+                    </o:fieldset>
+
+                    <ui:insert name="agriculteursSearchPreferencesSave">
+                        <ui:include src="/demo/agriculteur/includes/agriculteursSearchPreferencesSave.xhtml" />
+                    </ui:insert>
+                </o:vcontrols>
+            </oq:queryForm>  
+        </o:col9>
+    </o:row>
+</ui:composition>

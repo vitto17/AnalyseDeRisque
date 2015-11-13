@@ -1,0 +1,21 @@
+actif	adresse1	adresse2	agrVersion	agriculteur	codePostal	etatAgriculteur	id	identifier	inactif	nbParcelles	nom	parcelles	prenom	rules	surfaceTotale	transient	typeAgriculteur	
+true	Les Chesnaies		0		88550				false	0	PIGNOREL		Franck			true		
+true	HOTEL VIGNETTE		0		16410				false	0	PITOISETTE		frederic			true		
+true	9 RUE DE VILLIERS		0		59178				false	0	GUINFOLLEAU		yaëlle			true		
+false	LA FAVROTIERE héhé		0		58190				true	0	CHESNEL		ben saïde			true		
+false	La Maroutie		0		53250				true	0	BOUCLEINVILLE		cathelyne			true		
+false	359 AVENUE GUILLAUME FICHET		0		31000				true	0	BENIER		jojo			true		
+false	647 RUE DE NEUVILLE		0		23340				true	0	BROSSAT		marie cecile			true		
+false	1310, CHEMIN LARRUE		0		13450				true	0	GAVERIAUX		moira			true		
+false	17 RUE DU LAVANDIN		0		55100				true	0	MICHELETTO		anne-carole			true		
+true	Amiens		0		31650				false	0	BALDE		Madiara			true		
+true	Bordeaux		0		31210				false	0	BOUBEKER		Hicham			true		
+true	Brest		0		31326				false	0	test		test			true		
+true	Paris		0		31326				false	0	MACHIN		PAUL			true		
+true	Anne-carole		0		31840				false	0	MICHOU		bastien			true		
+true	Rue de la licorne Tournefeuille		0		31170				false	0	RIBERY		Franck			true		
+true	Rue pouzonville		0		31840				false	0	Nobody		DontKnow			true		
+true	Route de seysse		0		75015				false	0	Duponteld		Jean			true		
+true	Blagnac		0		31200				false	0	Dumm		Mike			true		
+true	Montpellier		0		31650				false	0	BENZEMA		Karim			true		
+true	Rouen		0		31840				false	0	EVRA		Patrice			true		

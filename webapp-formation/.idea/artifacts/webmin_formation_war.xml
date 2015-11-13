@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webmin-formation:war">
+    <output-path>$PROJECT_DIR$/../../../trunk/webmin-formation/target</output-path>
+    <root id="archive" name="webmin-formation-1.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webmin-formation:war exploded" />
+    </root>
+  </artifact>
+</component>

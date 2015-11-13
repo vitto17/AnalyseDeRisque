@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: fr.gouv.agriculture.commons:less-compiler:1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/commons/less-compiler/1.0/less-compiler-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/commons/less-compiler/1.0/less-compiler-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/commons/less-compiler/1.0/less-compiler-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

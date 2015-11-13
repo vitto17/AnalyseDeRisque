@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.bytecode.use_reflection_optimizer">true</property>
+    <property name="c3p0.max_statements">50</property>
+    <!-- Test de la connection tout les xxx : corrige les problèmes lors de l'arrêt du DataServer -->
+    <property name="hibernate.c3p0.idle_test_period">600</property>
+    <!-- Temps pendant lequel une connexion peut être utilisée avant d'être libérée. -->
+    <property name="hibernate.c3p0.timeout">1800</property>
+    <property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+    <property name="transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+    <property name="hibernate.connection.IS_CLOSED_TEST">select 1</property>
+    <property name="use_outer_join">true</property>
+    <!-- Mappings sécurité -->
+    <mapping resource="fr/gouv/agriculture/orion/security/authorization/Application.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authorization/Group.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authorization/Role.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authorization/GuardedResource.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authorization/Permission.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authorization/GroupCategory.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authorization/GuardedResourceCategory.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authorization/RoleCategory.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authentication/spi/OrionCredentials.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authentication/spi/AgricollCredentials.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authentication/spi/BDNUCredentials.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authentication/spi/CerbereCredentials.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authentication/spi/Civility.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/security/authentication/spi/RoleForPrincipal.hbm.xml"/>
+    <!-- Mappings réservés aux préférences -->
+    <mapping resource="fr/gouv/agriculture/orion/preference/Preference.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/preference/QueryPreference.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/preference/Owner.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/preference/Attributeinfos.hbm.xml"/>
+    <!-- Mappings liés aux scénarios -->
+    <mapping resource="fr/gouv/agriculture/orion/scenario/Scenario.hbm.xml"/>
+    <mapping resource="fr/gouv/agriculture/orion/scenario/ScenarioItem.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

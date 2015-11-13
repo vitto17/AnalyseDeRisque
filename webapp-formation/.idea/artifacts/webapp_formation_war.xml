@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webapp-formation:war">
+    <output-path>$PROJECT_DIR$/../../../trunk/webapp-formation/target</output-path>
+    <root id="archive" name="webapp-formation-1.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webapp-formation:war exploded" />
+    </root>
+  </artifact>
+</component>

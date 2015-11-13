@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ 
+<orion:reports
+		xmlns:orion="http://agriculture.gouv.fr/orion/report/metadatas"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <theme label="Formation Orion 5">
+        <report id="simple-exports-agriculteurs" overridable="true">
+            <attribute name="label" value="#{fr.gouv.agriculture.pro.demo.ihm.agriculteurs.simple.export.label}" />
+            <attribute name="comment" value="#{fr.gouv.agriculture.pro.demo.ihm.agriculteurs.simple.export.comment}" />
+
+            <!--<attribute name="dataSourceProvider" value="fr.gouv.agriculture.orion.dao.defaults.DefaultBusinessDAO" />-->
+            <!-- DAO pour l'objet métier Agriculteur permettant de définir les propriétes à omeetre dans pour un export XML -->
+            <!--<attribute name="dataSourceProvider" value="fr.gouv.agriculture.pro.demo.dao.agriculteur.AgriculteurReportDAO" />-->
+            <!-- DAO pour l'objet métier Agriculteur permettant de définir les propriétes à inclure dans l'export en défnissant programmatiquement une requête JDBC -->
+            <!--<attribute name="dataSourceProvider" value="fr.gouv.agriculture.pro.demo.dao.agriculteur.AgriculteurReportJDBCDAO" />-->
+            <!-- DAO pour l'objet métier Agriculteur permettant de définir les propriétes à inclure dans l'export en défnissant programmatiquement une requête HQL -->
+            <attribute name="dataSourceProvider" value="fr.gouv.agriculture.pro.demo.dao.agriculteur.AgriculteurReportHQLDAO" />
+            
+            <engine type="fr.gouv.agriculture.orion.report.engine.RawDataEngine">
+                <format type="fr.gouv.agriculture.o2.io.format.CsvFormat" default="true" />
+                <format type="fr.gouv.agriculture.o2.io.format.XmlFormat" />
+                <format type="fr.gouv.agriculture.o2.io.format.TxtFormat" />
+            </engine>
+
+            <target type="fr.gouv.agriculture.orion.report.target.ViewTarget" default="true" />
+      
+	</report>
+        
+        <report id="templated-jasper-exports-agriculteurs">
+            <attribute name="label" value="#{fr.gouv.agriculture.pro.demo.ihm.agriculteurs.templated.export.jasper.label}" />
+            <attribute name="comment" value="#{fr.gouv.agriculture.pro.demo.ihm.agriculteurs.templated.export.comment}" />
+            <attribute name="dataSourceProvider" value="fr.gouv.agriculture.pro.demo.dao.agriculteur.AgriculteurReportDAO" />
+            
+            <engine type="fr.gouv.agriculture.orion.report.engine.ors.OrsJasperEngine">
+                <parameter name="modelName" value="formasio/ors/model/agriculteursListeReport_XMLDS.jrxml" />
+                <parameter name="rootElement" value="/Agriculteur" />
+                <parameter name="jmsFilter" value="jasperreports-4" />
+                <format type="fr.gouv.agriculture.o2.io.format.PdfFormat" default="true" />
+                <format type="fr.gouv.agriculture.o2.io.format.OdtFormat" />
+                <parameter name="clientID" value="foramtion-orion-step17" />
+            </engine>
+
+            <resource name="logo" path="demo/ors/model/logo_ministere_agriculture.gif" />
+            <target type="fr.gouv.agriculture.orion.report.target.ViewTarget" />
+        </report>
+        
+        <report id="templated-libreofficemerge-exports-agriculteurs">
+            <attribute name="label" value="#{fr.gouv.agriculture.pro.demo.ihm.agriculteurs.templated.export.libreoffice.merge.label}" />
+            <attribute name="comment" value="#{fr.gouv.agriculture.pro.demo.ihm.agriculteurs.templated.export.comment}" />
+            <attribute name="dataSourceProvider" value="fr.gouv.agriculture.pro.demo.dao.agriculteur.AgriculteurReportDAO" />
+            
+          <engine type="fr.gouv.agriculture.orion.report.engine.ors.OrsCatalogMergeEngine">
+                <parameter name="modelName" value="formasio/ors/model/agriculteursCatalog.odt" />		
+		<parameter name="datasourceName" value="Formasio" />
+		<parameter name="tableName" value="agriculteurs" />
+		<parameter name="clientID" value="foramtion-orion-step17" />
+                
+                <format type="fr.gouv.agriculture.o2.io.format.OdtFormat" default="true"/>
+		<format type="fr.gouv.agriculture.o2.io.format.PdfFormat"  />
+
+                <parameter name="clientID" value="foramtion-orion-step17" />
+            </engine>
+        
+            <target type="fr.gouv.agriculture.orion.report.target.ViewTarget" />
+        </report>
+    </theme>
+
+    <context id="agriculteursExport">
+        <report-ref value="simple-exports-agriculteurs" />
+        <report-ref value="templated-jasper-exports-agriculteurs" />
+<!--        <report-ref value="templated-libreofficemerge-exports-agriculteurs" />-->
+    </context>        
+	<!--
+	<theme label="monThemeId">
+
+		<report id="monReportId">
+			<attribute name="label" value="#{report.monReportId.label}"/>
+			<attribute name="dataSourceProvider" value="DAO du report"/>
+			<attribute name="comment" value="#{report.monReportId.comment}"/>
+			<attribute name="compressed" value="false"/>
+
+			<engine type="fr.gouv.agriculture.orion.report.engine.ors.OrsJasperEngine">
+				<parameter name="modelName" value="#{report.monReportId.modelName}"/>
+				<parameter name="rootElement" value="/list/Agriculteur"/>
+				<parameter name="clientID" value="NOM de l'appli" />	
+				<format type="fr.gouv.agriculture.orion.o2.io.format.PdfFormat"/>
+			</engine>
+			
+			<engine type="fr.gouv.agriculture.orion.report.engine.ors.OrsCatalogMergeEngine">
+				<parameter  name="modelName" value="orion/vide/model/community/defaults/model.odt"/>
+				<parameter name="datasourceName" value="vide"/>
+				<parameter name="tableName" value="xxx"/>				
+				<parameter name="stringdelimiter" value="|"/>
+				<macro type="fr.gouv.agriculture.orion.report.Macro" name="Standard.Orion.MakeCatalog">
+					<parameter name="catalogName" value="CatalogParcelle"/>
+					<parameter name="catalogType" value="demo.business.agriculteur.Parcelle" />
+				</macro>
+				<macro  type="fr.gouv.agriculture.orion.report.Macro" name="Standard.Orion.MakeCatalog" >
+					<parameter name="catalogName" value="CatalogVisite"/>					
+					<parameter name="catalogType" value="demo.business.agriculteur.Visite" />
+				</macro>
+						
+				<format type="fr.gouv.agriculture.orion.o2.io.format.OdtFormat" default="true"/>
+				<format type="fr.gouv.agriculture.orion.o2.io.format.PdfFormat"/>
+				<format type="fr.gouv.agriculture.orion.o2.io.format.RtfFormat"/>
+				<format type="fr.gouv.agriculture.orion.o2.io.format.DocFormat"/>
+				
+			</engine>
+
+			<target default="true"  type="fr.gouv.agriculture.orion.report.target.ViewTarget"/>
+
+		</report>
+	</theme>	
+
+	<context id="MonContexteId">
+		<report-ref value="MonReportId" />	
+	</context>
+	-->
+	
+	<!-- COMMENTAIRE : le stringDelimiter permet de fixer UN caractï¿½re unique qui encadre chaque donnï¿½es 
+				dans le fichier txt de donnï¿½es ï¿½ fusionner. Il est facultatif. Il permet de gï¿½rer les donnï¿½es qui contiennent
+				retour chariot ou tabulation MAIS le caractï¿½re utilisï¿½ ne doit pas se trouver dans les donnï¿½es sans 
+				quoi la fusion sera erronï¿½e.
+				<engine type="fr.gouv.agriculture.orion.report.engine.ors.OrsCatalogMergeEngine">
+				<parameter  name="modelName" value="orion/vide/model/community/defaults/model.odt"/>
+				<parameter name="datasourceName" value="vide"/>
+				<parameter name="tableName" value="xxx"/>				
+				<parameter name="stringdelimiter" value="|"/>
+				....
+				
+    -->
+                                
+</orion:reports>

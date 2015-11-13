@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets" 
+                xmlns:o="http://orion.agriculture-gouv.fr/standard">
+
+    <o:table  id="agriculteursListTable" title="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.title']}">
+        <o:thead>
+            <o:tr>
+                <o:th id="agriculteursListTableControls" colspan="9">
+                    <o:localFilter />
+                    <o:tablePreferences />
+                </o:th>
+            </o:tr>
+            <o:tr data="true" >    
+                <o:th id="selector" sortable="false" moveable="false">
+                 <o:selectionControl/>
+                </o:th> 
+                <o:th id="expand" sortable="false" moveable="true"/>
+                <o:th id="agiculteurName" sortable="true" moveable="true">
+                    #{Messages['agriculteur.lastName.shortLabel']}
+                </o:th>
+                <o:th id="agiculteurFirstName" sortable="true" moveable="true">
+                    #{Messages['agriculteur.firstName.shortLabel']}
+                </o:th>
+                <o:th id="agiculteurType" sortable="true" moveable="true">                                    
+                    #{Messages['agriculteur.type.shortLabel']}
+                </o:th>
+                <o:th id="agiculteurActif" sortable="true" moveable="true"  >
+                    #{Messages['agriculteur.active.shortLabel']}
+                </o:th>
+                <o:th id="agriculteurAdresse"  moveable="true">
+                    #{Messages['agriculteur.address.shortLabel']}
+                </o:th>
+                <o:th id="agriculteurCodePostal"  moveable="true">
+                    #{Messages['agriculteur.zipCode.shortLabel']}
+                </o:th>
+                <o:th id="agriculteurNbParcelles"  moveable="true">
+                    #{Messages['agriculteur.nbParcelles.shortLabel']}
+                </o:th>
+                <o:th id="actions" sortable="false">
+                    #{Messages['agriculteur.action.shortLabel']}
+                </o:th>
+            </o:tr>
+        </o:thead>
+        <o:tbody>
+            <o:repeat maxIt="10" var="agriculteur">
+                <o:fragment>
+                    <o:tr data="true">
+                         <o:td headers="selector">
+                             <o:selector/>
+                        </o:td>
+                        <o:td headers="expand">
+                            <o:expand  target="detailZone"  
+                                       async="true" 
+                                       render=":mainform:agriculteursListTable">
+                            </o:expand>
+                        </o:td>
+                        <o:td headers="agiculteurName">
+                            #{agriculteur.nom}
+                        </o:td>
+                        <o:td headers="agiculteurFirstName">
+                            #{agriculteur.prenom}
+                        </o:td>
+                        <o:td headers="agiculteurType">
+                            #{agriculteur.typeAgriculteur}
+                        </o:td>
+                        <o:td headers="agiculteurActif">
+                            <o:outputBoolean id="agriculteurActifValue" value="#{agriculteur.actif}" size="1"/>
+                        </o:td>
+                        <o:td headers="agriculteurAdresse">
+                            #{agriculteur.adresse1}
+                        </o:td>
+                        <o:td headers="agriculteurCodePostal">
+                            #{agriculteur.codePostal}
+                        </o:td>
+                        <o:td headers="agriculteurNbParcelles">
+                            #{agriculteur.nbParcelles}
+                        </o:td>
+                        <o:td headers="actions">
+                            <ui:insert name="tableActionColumn">
+                                <o:dropdownButton>                                        
+                                    <o:dropdownAction icon="icon-pencil"
+                                                      label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.action.modify']}"
+                                                      outcome="agriculteurDetailRW"
+                                                      disabled="false"
+                                                      actionRef="modifyAgriculteurAction"
+                                                      />
+                                    <o:dropdownAction icon="icon-search"
+                                                      label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.action.view']}"
+                                                      outcome="agriculteurDetailRO"
+                                                      disabled="false"
+                                                      actionRef="viewAgriculteurAction"
+                                                      />
+                                </o:dropdownButton>    
+                            </ui:insert>
+                        </o:td>
+                    </o:tr>
+                    <o:expandable id="detailZone" groupIds="tbody">
+                        <o:tr data="false" id="detail">
+                            <o:td headers="agiculteurName" colspan="5">
+                                <h3>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurForm.details']} #{agriculteur.nom}</h3>
+                                <o:row>
+                                    <o:col5>
+                                        <p align="left"><img src="resources/img/bonhomme.png" border="0"/></p>
+                                        <o:control>
+                                            <o:label>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurForm.identity']}</o:label>
+                                            <o:outputText id="identity" 
+                                                          value="#{agriculteur.prenom} #{agriculteur.nom}"
+                                                          size="8"/>
+                                        </o:control>
+                                        <o:control>
+                                            <o:label>#{Messages['agriculteur.address.shortLabel']}</o:label>
+                                            <o:outputText id="address" 
+                                                          value="#{agriculteur.adresse1} - #{agriculteur.adresse2}"
+                                                          size="12"/>
+                                        </o:control>
+                                    </o:col5>
+                                    <o:col7>
+                                        <p align="justify">
+                                            Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. 
+                                        </p>
+                                        <p align="justify">
+                                            Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.
+                                        </p>
+
+                                        <p align="justify">
+                                            L'extrait standard de Lorem Ipsum utilisé depuis le XVIè siècle est reproduit ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" de Cicéron sont aussi reproduites dans leur version originale, accompagnée de la traduction anglaise de H. Rackham (1914).
+                                        </p>
+                                        <p align="justify">
+                                            Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient aucune répétition, ni ne contient des mots farfelus, ou des touches d'humour.
+                                        </p>
+                                    </o:col7>
+                                </o:row>
+                            </o:td>
+                        </o:tr>
+                    </o:expandable>
+                </o:fragment>
+            </o:repeat>
+        </o:tbody>
+    </o:table>            
+    <ui:include src="/common/list-pagination.xhtml"/>
+</ui:composition>

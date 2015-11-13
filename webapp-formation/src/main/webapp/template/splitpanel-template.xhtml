@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition template="/template/core-page.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html" 
+                xmlns:o="http://orion.agriculture-gouv.fr/standard"
+                xmlns:oc="http://java.sun.com/jsf/composite/common" >
+
+    <ui:define name="content">
+        <o:splitPanel hiddenPanel="left" id="left-splitPanel">
+            <o:col3 id="leftPanel" role="left-panel">
+                <ui:insert name="leftContent">
+                    
+                </ui:insert>
+            </o:col3>
+            <o:col9 id="rightPanel" role="right-panel">
+                <ui:insert name="rightContent">
+                    <o:box>
+                        <!-- Header de la box -->
+                        <o:boxHeader>
+                            <ui:insert name="box-header"> 
+                                <h2>Titre de la box</h2>
+                            </ui:insert>
+                        </o:boxHeader>
+                        <!-- body de la box -->
+                        <o:boxBody>
+                            <ui:insert name="box-body">
+                                <h2> Corps de la box </h2>
+                            </ui:insert>
+                        </o:boxBody>
+                        <!-- Texte Alternatif de la box -->
+                        <o:boxAlt>
+                            <ui:insert name="box-alt">
+                                <h2>Texte Alternatif de la box</h2>
+                            </ui:insert>
+                        </o:boxAlt>            
+                    </o:box>
+                </ui:insert>
+            </o:col9>
+        </o:splitPanel>
+    </ui:define>    
+</ui:composition>

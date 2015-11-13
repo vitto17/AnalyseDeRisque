@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets" 
+                xmlns:o="http://orion.agriculture-gouv.fr/standard">
+
+    <o:control>
+        <o:label>
+            #{Messages['agriculteur.active.shortLabel']}
+        </o:label>
+        <o:checkbox 
+            id="actifAgriculteur"
+            title="#{Messages['agriculteur.active.shortLabel']}"
+            value="#{agriculteur.actif}"/>
+    </o:control>
+    <o:control>
+        <o:label>
+            #{Messages['agriculteur.type.shortLabel']}
+        </o:label>
+        <o:outputText id="typeAgriculteur"
+                    title="#{Messages['agriculteur.type.shortLabel']}"
+                    value="#{agriculteur.typeAgriculteur}" />
+        <o:showPopUpButton url="/demo/agriculteur/includes/guideType.xhtml"
+                           width="800" height="350"
+                           popUpTitle="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.guide.popUp']}"
+                           tooltip="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.guide.tooltip']}"
+                           for="typeAgriculteur">
+            #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.guide.libelle']}
+        </o:showPopUpButton>
+    </o:control>
+</ui:composition>

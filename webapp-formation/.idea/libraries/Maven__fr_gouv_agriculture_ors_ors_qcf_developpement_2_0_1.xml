@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: fr.gouv.agriculture.ors:ors-qcf:developpement:2.0.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/ors/ors-qcf/2.0.1/ors-qcf-2.0.1-developpement.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/ors/ors-qcf/2.0.1/ors-qcf-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/ors/ors-qcf/2.0.1/ors-qcf-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

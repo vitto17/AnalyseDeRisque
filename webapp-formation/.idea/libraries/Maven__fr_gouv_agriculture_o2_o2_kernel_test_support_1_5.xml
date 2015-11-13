@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: fr.gouv.agriculture.o2:o2-kernel-test-support:1.5">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/o2/o2-kernel-test-support/1.5/o2-kernel-test-support-1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/o2/o2-kernel-test-support/1.5/o2-kernel-test-support-1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/o2/o2-kernel-test-support/1.5/o2-kernel-test-support-1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

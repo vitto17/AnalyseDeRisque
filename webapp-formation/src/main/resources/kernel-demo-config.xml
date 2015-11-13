@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:kernel-config xmlns:p="http://o2.agriculture.gouv.fr/kernel"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://o2.agriculture.gouv.fr/kernel http://service.agriculture.gouv.fr/o2/schemas/kernel-1.2.xsd">
+
+    <!-- Menu horizontal -->
+    <bean name="agriculteurMC" scope="session"
+          classname="fr.gouv.agriculture.pro.demo.controller.AgriculteurMC" 
+          parent="fr.gouv.agriculture.orion.controller.menu.MenuController" />
+
+    <!-- Liste d'agriculteurs -->
+    <bean name="agriculteurLC" scope="session"
+          classname="fr.gouv.agriculture.orion.controller.list.ListController" 
+          parent="fr.gouv.agriculture.orion.controller.list.ListController" >
+        <property name="businessClass" value="fr.gouv.agriculture.pro.demo.business.agriculteur.Agriculteur"/>
+    </bean>
+
+    <!-- Formulaire d'agriculteur -->
+    <bean name="agriculteurFC" scope="session"
+          classname="fr.gouv.agriculture.pro.demo.controller.AgriculteurFC" 
+          parent="fr.gouv.agriculture.orion.controller.form.FormController">
+        <property name="businessClass" value="fr.gouv.agriculture.pro.demo.business.agriculteur.Agriculteur"/>
+    </bean>
+    <bean name="typeAgriculteurLC" scope="session"
+          classname="fr.gouv.agriculture.orion.controller.list.ListController" 
+          parent="fr.gouv.agriculture.orion.controller.list.ListController">
+        <property name="businessClass" value="fr.gouv.agriculture.pro.demo.business.agriculteur.TypeAgriculteur"/>
+    </bean>
+    <!-- Formulaire d'agriculteur : actions de consultation et modification -->
+    <bean name="modifyAgriculteurAction"
+          classname="fr.gouv.agriculture.pro.demo.action.ModifyAgriculteurAction"
+          parent="fr.gouv.agriculture.orion.action.navigation.LinkAction"
+          scope="none" />
+    <bean name="viewAgriculteurAction"
+          classname="fr.gouv.agriculture.pro.demo.action.ViewAgriculteurAction"
+          parent="fr.gouv.agriculture.orion.action.navigation.LinkAction"
+          scope="none" />
+    <!-- Formulaire d'agriculteur : menu latéral -->
+    <bean name="parcelleLC" scope="session"
+          classname="fr.gouv.agriculture.orion.controller.list.ListController" 
+          parent="fr.gouv.agriculture.orion.controller.list.ListController">
+        <property name="businessClass" value="fr.gouv.agriculture.pro.demo.business.parcelle.Parcelle"/>
+    </bean>
+    <!-- Formulaire d'agriculteur : SlaveList de parcelles -->
+    <bean name="parcelleDAO" 
+          classname="fr.gouv.agriculture.pro.demo.dao.parcelle.ParcelleDAO" 
+          scope="session" />
+    <bean name="parcelleSLC" scope="session" 
+          classname="fr.gouv.agriculture.orion.controller.list.SlaveListController" 
+          parent="fr.gouv.agriculture.orion.controller.list.SlaveListController">
+        <property name="businessClass" value="fr.gouv.agriculture.pro.demo.business.parcelle.Parcelle"/>
+        <property name="businessDao" value-ref="parcelleDAO"/>
+    </bean>
+    
+    <!-- Recherche d'agriculteurs -->
+    <bean name="agriculteurQFPC" scope="session"
+          classname="fr.gouv.agriculture.orion.controller.QueryFormPreferenceController"
+          parent="fr.gouv.agriculture.orion.controller.QueryFormPreferenceController">
+        <property name="businessClass" value="fr.gouv.agriculture.pro.demo.business.agriculteur.Agriculteur"/>
+        <property name="queryFormPreferenceId" value="agriculteursPref" />
+        <property name="rememberQuery" value="false" />
+    </bean>
+    <!-- Recherche d'agriculteurs -->
+    <bean name="perimetreCalculQFPC" scope="session"
+          classname="fr.gouv.agriculture.orion.controller.QueryFormPreferenceController"
+          parent="fr.gouv.agriculture.orion.controller.QueryFormPreferenceController">
+        <property name="businessClass" value="fr.gouv.agriculture.pro.demo.business.agriculteur.Agriculteur"/>
+        <property name="rememberQuery" value="false" />
+    </bean>
+    <!-- Auto completion pour les noms d'Agriculteurs -->
+    <bean name="fr.gouv.agriculture.pro.demo.service.AgriculteurNameService" scope="application" 
+          classname="fr.gouv.agriculture.pro.demo.service.AgriculteurNameServiceImpl" 
+          depends="fr.gouv.agriculture.orion.factory.PersistenceServiceFactory"/>
+    <bean name="agriculteurNameACC" scope="session"
+          classname="fr.gouv.agriculture.pro.demo.controller.AgriculteurNameACC"
+          parent="fr.gouv.agriculture.orion.controller.complete.AbstractCompleteController">
+    </bean>
+    <!-- Gestion des préférences de recherches d'agriculteurs -->
+    <bean name="agriculteurQPLC"
+          classname="fr.gouv.agriculture.orion.controller.preference.query.QueryPreferenceListController" 
+          parent="fr.gouv.agriculture.orion.controller.preference.query.QueryPreferenceListController"
+          scope="session" > 
+    </bean>
+</p:kernel-config>

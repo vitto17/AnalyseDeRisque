@@ -1,0 +1,2015 @@
+[main] 09:41:14.042 - WARN - o.u.c.ConfigurationLoader - No custom configuration file unitils.properties found.
+[main] 09:41:14.051 - INFO - o.u.c.ConfigurationLoader - No local configuration file unitils-local.properties found.
+[main] 09:41:14.062 - DEBUG - o.u.c.ModulesLoader - Skipping module database. Module class not found in classpath. Module class name: org.unitils.database.DatabaseModule
+[main] 09:41:14.062 - DEBUG - o.u.c.ModulesLoader - Skipping module dbunit. Module class not found in classpath. Module class name: org.unitils.dbunit.DbUnitModule
+[main] 09:41:14.069 - DEBUG - o.u.c.ModulesLoader - Skipping module hibernate. Module class not found in classpath. Module class name: org.unitils.orm.hibernate.HibernateModule
+[main] 09:41:14.072 - DEBUG - o.u.c.ModulesLoader - Skipping module io. Module class not found in classpath. Module class name: org.unitils.io.IOModule
+[main] 09:41:14.072 - DEBUG - o.u.c.ModulesLoader - Skipping module jpa. Module class not found in classpath. Module class name: org.unitils.orm.jpa.JpaModule
+[main] 09:41:14.072 - DEBUG - o.u.c.ModulesLoader - Skipping module mock. Module class not found in classpath. Module class name: org.unitils.mock.MockModule
+[main] 09:41:14.073 - DEBUG - o.u.c.ModulesLoader - Skipping module spring. Module class not found in classpath. Module class name: org.unitils.spring.SpringModule
+[main] 09:41:14.166 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.166 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.179 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate
+[main] 09:41:14.181 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.181 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.181 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.181 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.181 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.181 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.182 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.183 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.184 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.185 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.187 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.194 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 1
+[main] 09:41:14.196 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.196 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.196 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.196 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.197 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.197 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.197 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.197 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.197 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.197 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.198 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.199 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.200 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.201 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.201 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.201 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.201 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.201 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.201 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.201 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.202 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.209 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 2
+[main] 09:41:14.209 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.209 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.209 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.209 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.209 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.209 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.209 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.209 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.210 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.211 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.212 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.213 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.213 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.213 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.213 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.213 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.213 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.216 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.216 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.216 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.216 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.216 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.216 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.216 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.217 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.217 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.217 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.220 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.227 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Zip code
+[main] 09:41:14.227 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.227 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.227 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.228 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.229 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.230 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.231 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.232 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.232 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.232 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.232 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.232 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.232 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.232 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.234 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.239 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - All
+[main] 09:41:14.239 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.244 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.244 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.244 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.244 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.244 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.245 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.245 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.245 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.245 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.245 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.245 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.245 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.246 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.247 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 09:41:14.248 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.249 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.249 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.249 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.249 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 09:41:14.249 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 09:41:14.249 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 09:41:14.260 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.263 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 09:41:14.264 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 09:41:14.265 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 09:41:14.266 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 09:41:14.266 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.266 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.266 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.268 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.272 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate KO
+[main] 09:41:14.273 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 09:41:14.273 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 09:41:14.273 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.273 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 09:41:14.273 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 09:41:14.273 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.273 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 09:41:14.274 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 09:41:14.274 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 09:41:14.274 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 09:41:14.274 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 09:41:14.274 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.274 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.274 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 09:41:14.274 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 09:41:14.275 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 09:41:14.276 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 09:41:14.276 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 10:48:16.823 - WARN - o.u.c.ConfigurationLoader - No custom configuration file unitils.properties found.
+[main] 10:48:16.823 - INFO - o.u.c.ConfigurationLoader - No local configuration file unitils-local.properties found.
+[main] 10:48:16.839 - DEBUG - o.u.c.ModulesLoader - Skipping module database. Module class not found in classpath. Module class name: org.unitils.database.DatabaseModule
+[main] 10:48:16.839 - DEBUG - o.u.c.ModulesLoader - Skipping module dbunit. Module class not found in classpath. Module class name: org.unitils.dbunit.DbUnitModule
+[main] 10:48:16.839 - DEBUG - o.u.c.ModulesLoader - Skipping module hibernate. Module class not found in classpath. Module class name: org.unitils.orm.hibernate.HibernateModule
+[main] 10:48:16.839 - DEBUG - o.u.c.ModulesLoader - Skipping module io. Module class not found in classpath. Module class name: org.unitils.io.IOModule
+[main] 10:48:16.839 - DEBUG - o.u.c.ModulesLoader - Skipping module jpa. Module class not found in classpath. Module class name: org.unitils.orm.jpa.JpaModule
+[main] 10:48:16.839 - DEBUG - o.u.c.ModulesLoader - Skipping module mock. Module class not found in classpath. Module class name: org.unitils.mock.MockModule
+[main] 10:48:16.839 - DEBUG - o.u.c.ModulesLoader - Skipping module spring. Module class not found in classpath. Module class name: org.unitils.spring.SpringModule
+[main] 10:48:16.932 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.932 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.948 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.948 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.948 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.963 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 1
+[main] 10:48:16.963 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.963 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.963 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.979 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 2
+[main] 10:48:16.979 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.979 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Zip code
+[main] 10:48:16.979 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.979 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.979 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.995 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - All
+[main] 10:48:16.995 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.995 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.995 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:16.995 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:17.010 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:17.010 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 10:48:17.010 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:17.010 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:17.010 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate KO
+[main] 10:48:17.026 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 10:48:17.026 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.634 - WARN - o.u.c.ConfigurationLoader - No custom configuration file unitils.properties found.
+[main] 11:06:32.634 - INFO - o.u.c.ConfigurationLoader - No local configuration file unitils-local.properties found.
+[main] 11:06:32.649 - DEBUG - o.u.c.ModulesLoader - Skipping module database. Module class not found in classpath. Module class name: org.unitils.database.DatabaseModule
+[main] 11:06:32.665 - DEBUG - o.u.c.ModulesLoader - Skipping module dbunit. Module class not found in classpath. Module class name: org.unitils.dbunit.DbUnitModule
+[main] 11:06:32.665 - DEBUG - o.u.c.ModulesLoader - Skipping module hibernate. Module class not found in classpath. Module class name: org.unitils.orm.hibernate.HibernateModule
+[main] 11:06:32.665 - DEBUG - o.u.c.ModulesLoader - Skipping module io. Module class not found in classpath. Module class name: org.unitils.io.IOModule
+[main] 11:06:32.665 - DEBUG - o.u.c.ModulesLoader - Skipping module jpa. Module class not found in classpath. Module class name: org.unitils.orm.jpa.JpaModule
+[main] 11:06:32.665 - DEBUG - o.u.c.ModulesLoader - Skipping module mock. Module class not found in classpath. Module class name: org.unitils.mock.MockModule
+[main] 11:06:32.665 - DEBUG - o.u.c.ModulesLoader - Skipping module spring. Module class not found in classpath. Module class name: org.unitils.spring.SpringModule
+[main] 11:06:32.774 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.774 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.774 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.774 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.790 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.790 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 1
+[main] 11:06:32.790 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.790 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.805 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.805 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 2
+[main] 11:06:32.805 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.805 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.821 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.821 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Zip code
+[main] 11:06:32.821 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.821 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.821 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.837 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - All
+[main] 11:06:32.837 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.837 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.837 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:06:32.837 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:06:32.852 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.852 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.852 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.852 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.868 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate KO
+[main] 11:06:32.868 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:06:32.868 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.692 - WARN - o.u.c.ConfigurationLoader - No custom configuration file unitils.properties found.
+[main] 11:15:33.707 - INFO - o.u.c.ConfigurationLoader - No local configuration file unitils-local.properties found.
+[main] 11:15:33.707 - DEBUG - o.u.c.ModulesLoader - Skipping module database. Module class not found in classpath. Module class name: org.unitils.database.DatabaseModule
+[main] 11:15:33.707 - DEBUG - o.u.c.ModulesLoader - Skipping module dbunit. Module class not found in classpath. Module class name: org.unitils.dbunit.DbUnitModule
+[main] 11:15:33.723 - DEBUG - o.u.c.ModulesLoader - Skipping module hibernate. Module class not found in classpath. Module class name: org.unitils.orm.hibernate.HibernateModule
+[main] 11:15:33.723 - DEBUG - o.u.c.ModulesLoader - Skipping module io. Module class not found in classpath. Module class name: org.unitils.io.IOModule
+[main] 11:15:33.723 - DEBUG - o.u.c.ModulesLoader - Skipping module jpa. Module class not found in classpath. Module class name: org.unitils.orm.jpa.JpaModule
+[main] 11:15:33.723 - DEBUG - o.u.c.ModulesLoader - Skipping module mock. Module class not found in classpath. Module class name: org.unitils.mock.MockModule
+[main] 11:15:33.723 - DEBUG - o.u.c.ModulesLoader - Skipping module spring. Module class not found in classpath. Module class name: org.unitils.spring.SpringModule
+[main] 11:15:33.801 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.817 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.817 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.817 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.832 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.832 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.848 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 1
+[main] 11:15:33.848 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.848 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.848 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.863 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 2
+[main] 11:15:33.863 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.863 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.863 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Zip code
+[main] 11:15:33.863 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.863 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.879 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.879 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - All
+[main] 11:15:33.879 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.879 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.879 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:15:33.879 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:15:33.910 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.910 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.910 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.910 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.926 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate KO
+[main] 11:15:33.926 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:15:33.926 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.536 - WARN - o.u.c.ConfigurationLoader - No custom configuration file unitils.properties found.
+[main] 11:17:43.536 - INFO - o.u.c.ConfigurationLoader - No local configuration file unitils-local.properties found.
+[main] 11:17:43.551 - DEBUG - o.u.c.ModulesLoader - Skipping module database. Module class not found in classpath. Module class name: org.unitils.database.DatabaseModule
+[main] 11:17:43.551 - DEBUG - o.u.c.ModulesLoader - Skipping module dbunit. Module class not found in classpath. Module class name: org.unitils.dbunit.DbUnitModule
+[main] 11:17:43.551 - DEBUG - o.u.c.ModulesLoader - Skipping module hibernate. Module class not found in classpath. Module class name: org.unitils.orm.hibernate.HibernateModule
+[main] 11:17:43.551 - DEBUG - o.u.c.ModulesLoader - Skipping module io. Module class not found in classpath. Module class name: org.unitils.io.IOModule
+[main] 11:17:43.551 - DEBUG - o.u.c.ModulesLoader - Skipping module jpa. Module class not found in classpath. Module class name: org.unitils.orm.jpa.JpaModule
+[main] 11:17:43.551 - DEBUG - o.u.c.ModulesLoader - Skipping module mock. Module class not found in classpath. Module class name: org.unitils.mock.MockModule
+[main] 11:17:43.551 - DEBUG - o.u.c.ModulesLoader - Skipping module spring. Module class not found in classpath. Module class name: org.unitils.spring.SpringModule
+[main] 11:17:43.645 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.645 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.660 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.660 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.660 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.660 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 1
+[main] 11:17:43.676 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.676 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.676 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 2
+[main] 11:17:43.676 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.676 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.692 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.692 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Zip code
+[main] 11:17:43.692 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.692 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.692 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.707 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - All
+[main] 11:17:43.707 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.707 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.707 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:17:43.707 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:17:43.723 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.723 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.723 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.723 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.738 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate KO
+[main] 11:17:43.738 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:17:43.738 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.804 - WARN - o.u.c.ConfigurationLoader - No custom configuration file unitils.properties found.
+[main] 11:39:49.804 - INFO - o.u.c.ConfigurationLoader - No local configuration file unitils-local.properties found.
+[main] 11:39:49.820 - DEBUG - o.u.c.ModulesLoader - Skipping module database. Module class not found in classpath. Module class name: org.unitils.database.DatabaseModule
+[main] 11:39:49.820 - DEBUG - o.u.c.ModulesLoader - Skipping module dbunit. Module class not found in classpath. Module class name: org.unitils.dbunit.DbUnitModule
+[main] 11:39:49.820 - DEBUG - o.u.c.ModulesLoader - Skipping module hibernate. Module class not found in classpath. Module class name: org.unitils.orm.hibernate.HibernateModule
+[main] 11:39:49.835 - DEBUG - o.u.c.ModulesLoader - Skipping module io. Module class not found in classpath. Module class name: org.unitils.io.IOModule
+[main] 11:39:49.835 - DEBUG - o.u.c.ModulesLoader - Skipping module jpa. Module class not found in classpath. Module class name: org.unitils.orm.jpa.JpaModule
+[main] 11:39:49.835 - DEBUG - o.u.c.ModulesLoader - Skipping module mock. Module class not found in classpath. Module class name: org.unitils.mock.MockModule
+[main] 11:39:49.835 - DEBUG - o.u.c.ModulesLoader - Skipping module spring. Module class not found in classpath. Module class name: org.unitils.spring.SpringModule
+[main] 11:39:49.913 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.913 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.929 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.929 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.945 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.945 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 1
+[main] 11:39:49.945 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.945 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.945 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.960 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Adresse 2
+[main] 11:39:49.960 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.960 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.960 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.976 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - Zip code
+[main] 11:39:49.976 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.976 - DEBUG - f.g.a.p.d.b.a.r.AddressRuleTestCase - validate KO - All
+[main] 11:39:49.976 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.976 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.976 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.AddressRuleTestCase
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> addressRule
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> addressRule est positionne a Null en fin de test.
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_2
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_3
+[main] 11:39:49.976 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_4
+[main] 11:39:49.991 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:50.007 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:50.007 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:50.007 - DEBUG - f.g.a.p.d.b.a.r.ParcelleRuleTestCase - validate KO
+[main] 11:39:50.007 - ERROR - f.g.a.o.k.s.a.InjectAspect - Attempt to @Inject a bean while Kernel is null.
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Classe de test -> class fr.gouv.agriculture.pro.demo.business.agriculteur.rule.ParcelleRuleTestCase
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> LOGGER
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelleRule
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Le champ -> parcelleRule est positionne a Null en fin de test.
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> agriculteur
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle1
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle2
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle3
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcelle4
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> parcellesList
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> i18nService
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_0
+[main] 11:39:50.007 - DEBUG - f.g.a.o.t.j.r.UnitilsRule - Nom du champ -> ajc$tjp_1

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+<!-- 
+    Created by the Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="fr.gouv.agriculture.pro.demo.business.production.Production" 
+    table="PRODUCTION"
+	dynamic-update="true"
+    optimistic-lock="dirty"
+    lazy="false"
+>
+
+
+    <id
+        name="id"
+        type="long"
+        column="PROD_CDN"
+    >
+        <generator class="native" />
+    </id>
+
+    <property
+        name="quantite"
+        type="java.math.BigDecimal"
+        column="PROD_QTE_NUM"
+        length="5"
+    />
+    <property
+        name="unite"
+        type="java.lang.String"
+        column="PROD_UNITE_LB"
+        length="20"
+    />
+
+    <property
+        name="dateRecolte"
+        type="java.util.Date"
+        column="PROD_DT"
+    />
+
+
+    <!-- associations -->
+    <!-- bi-directional many-to-one association to Parcelle -->
+    <many-to-one
+        name="parcelle"
+        class="fr.gouv.agriculture.pro.demo.business.parcelle.Parcelle"
+        not-null="true"
+    >
+        <column name="PAR_CDN" />
+    </many-to-one>
+    <!-- uni-directional many-to-one association to TypeProduction -->
+    <many-to-one
+        name="typeProduction"
+        class="fr.gouv.agriculture.pro.demo.business.production.TypeProduction"
+    >
+        <column name="TPROD_CDN" />
+    </many-to-one>
+
+</class>
+</hibernate-mapping>

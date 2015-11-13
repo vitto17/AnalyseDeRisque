@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../trunk/db-formation/db-formation.iml" filepath="$PROJECT_DIR$/../../../trunk/db-formation/db-formation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/formation-orion.iml" filepath="$PROJECT_DIR$/formation-orion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../trunk/formation-orion (1).iml" filepath="$PROJECT_DIR$/../../../trunk/formation-orion (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../trunk/webapp-formation/webapp-formation.iml" filepath="$PROJECT_DIR$/../../../trunk/webapp-formation/webapp-formation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../trunk/webmin-formation/webmin-formation.iml" filepath="$PROJECT_DIR$/../../../trunk/webmin-formation/webmin-formation.iml" />
+    </modules>
+  </component>
+</project>

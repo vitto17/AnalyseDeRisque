@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<!-- 
+		Created by the Middlegen Hibernate plugin
+		
+		http://boss.bekk.no/boss/middlegen/
+		http://hibernate.sourceforge.net/
+	-->
+
+<class 
+	name="fr.gouv.agriculture.pro.demo.business.parcelle.Parcelle"
+	table="PARCELLE"
+	dynamic-update="true"
+    optimistic-lock="dirty"
+    lazy="false"
+    batch-size="60"
+>
+				
+		<id name="id" type="long" column="PAR_CDN">
+			<generator class="native" />
+		</id>
+
+		<property name="libelle" type="java.lang.String"
+			column="PAR_LIB_LB" not-null="true" length="50" />
+			
+		<property name="surface" type="int" column="PAR_SURFACE_INT"
+			not-null="true" length="4" />
+			
+		<property name="libelleCadastre" type="java.lang.String"
+			column="PAR_CADAST_LB" length="20" />
+
+			
+		<!-- associations -->
+		<!-- bi-directional many-to-one association to Agriculteur -->
+		<many-to-one name="agriculteur"
+			class="fr.gouv.agriculture.pro.demo.business.agriculteur.Agriculteur" 
+			not-null="true"
+			>
+			<column name="AGR_CDN" />
+		</many-to-one>
+		
+		<!-- bi-directional one-to-many association to Production -->
+		<bag name="productions" lazy="true" inverse="true"
+			cascade="all">
+			<key>
+				<column name="PAR_CDN" />
+			</key>
+			<one-to-many class="fr.gouv.agriculture.pro.demo.business.production.Production" />
+			<loader query-ref="charge_productions"/>
+		</bag>
+	</class>
+
+	<sql-query name="charge_productions">
+      <load-collection alias="production" role="fr.gouv.agriculture.pro.demo.business.parcelle.Parcelle.productions"/> 
+    SELECT {production.*}
+    FROM PRODUCTION production, TYPE_PRODUCTION tprod
+    WHERE PAR_CDN = :id AND production.TPROD_CDN = tprod.TPROD_CDN
+    ORDER BY tprod.TPROD_LIB_LB
+	</sql-query>
+</hibernate-mapping>

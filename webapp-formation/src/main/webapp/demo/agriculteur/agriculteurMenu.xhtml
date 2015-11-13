@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"                
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:o="http://orion.agriculture-gouv.fr/standard"
+                xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+    <o:menu id="agriculteurMenu" 
+            controllerRef="agriculteurMC"
+            containerRef="mainMC"
+            styleClass="o-menuV nav nav-list">
+        <h2>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurForm.details']} #{agriculteurMC.agriculteurName}</h2>
+        <o:menuItem id="agriculteurIndex" >
+            <o:menu id="agriMenu" styleClass="nav nav-list">
+                <o:list id="parcelleList" controllerRef="parcelleLC" >
+                    <o:repeat maxIt="20" var="parcelleItem">
+                        <o:fragment>
+                            <o:tr data="true">
+                                <o:menuItem id="parcelle">
+                                    <o:menuItemClickable 
+                                        outcome="parcelleDetailRO"
+                                        tooltip="#{Messages['fr.gouv.agriculture.pro.demo.ihm.parcelle.menu.tooltip']}">
+                                        #{parcelleItem.libelle}
+                                    </o:menuItemClickable>
+                                </o:menuItem>
+                            </o:tr>
+                        </o:fragment>
+                    </o:repeat>
+                </o:list>
+            </o:menu>
+        </o:menuItem>
+    </o:menu>
+</ui:composition>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_1.xsd"
+              version="2.1">            
+    <navigation-rule>
+        <from-view-id>*</from-view-id>
+
+        <navigation-case>
+            <from-outcome>/index.xhtml</from-outcome>
+            <to-view-id>/index.xhtml</to-view-id>
+        </navigation-case>
+
+        <!-- Liste des agriculteurs -->
+        <navigation-case>
+            <from-outcome>agriculteursList</from-outcome>
+            <to-view-id>/demo/agriculteur/agriculteursList.xhtml</to-view-id>
+        </navigation-case>
+        <!-- Formulaires des agriculteurs -->
+        <navigation-case>
+            <from-outcome>agriculteurDetailRW</from-outcome>
+            <to-view-id>/demo/agriculteur/agriculteurDetailReadWrite.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>agriculteurDetailRO</from-outcome>
+            <to-view-id>/demo/agriculteur/agriculteurDetailReadOnly.xhtml</to-view-id>
+        </navigation-case>
+        
+        <!-- Gestion des préférences de recherches d'agriculteurs -->
+        <navigation-case>
+            <from-outcome>queryPrefManagement</from-outcome>
+            <to-view-id>/administration/preference/query/queryPreferencesList.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+</faces-config>

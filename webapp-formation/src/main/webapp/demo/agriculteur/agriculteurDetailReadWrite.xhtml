@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition template="/template/splitpanel-template.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:o="http://orion.agriculture-gouv.fr/standard" >
+
+    <ui:param name="pageLabel" value="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.action.modify']}"/>
+
+    <ui:define name="title">
+        #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurForm.details']}
+    </ui:define>
+
+    <ui:define name="leftContent" ><ui:include src="/demo/agriculteur/agriculteurMenu.xhtml" /></ui:define>
+    <ui:define name="rightContent">
+        <o:box id="msgAccueil"> 
+            <o:boxHeader>
+                <h2>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurForm.details']}</h2>
+            </o:boxHeader>
+            <o:boxBody>
+                <o:form id="agriculteurForm" controllerRef="agriculteurFC"
+                        var="agriculteur"
+                        groupIds="refresh-default-group">
+                    <o:vcontrols>
+
+                        <!-- Définition des étapes. L'onglet dont l'id est "civility" est celui sélectionné par défaut -->
+                        <o:wizardPanels selected="civility">
+                            <o:steps>
+                                <o:step>
+                                    <!-- Définition de l'étape de civilités -->
+                                    <o:clickableStep target="civility">
+                                        <span class="o-wizard-step-number">1</span>
+                                        <span class="o-wizard-step-title">#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursTab.civility']}</span> 
+                                    </o:clickableStep>
+                                </o:step>
+                                <o:step>
+                                    <!-- Définition de l'étape d'adresse -->
+                                    <o:clickableStep target="address">
+                                        <span class="o-wizard-step-number">2</span>
+                                        <span class="o-wizard-step-title">#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursTab.address']}</span> 
+                                    </o:clickableStep>
+                                </o:step>
+                                <o:step>
+                                    <!-- Définition de l'étape d'activité -->
+                                    <o:clickableStep target="activity">
+                                        <span class="o-wizard-step-number">3</span>
+                                        <span class="o-wizard-step-title">#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursTab.activity']}</span> 
+                                    </o:clickableStep>
+                                </o:step>
+                                <o:step>
+                                    <!-- Définition de l'étape d'affichage des parcelles -->
+                                    <o:clickableStep target="parcelles">
+                                        <span class="o-wizard-step-number">4</span>
+                                        <span class="o-wizard-step-title">#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursTab.parcelles']}</span> 
+                                    </o:clickableStep>
+                                </o:step>
+                            </o:steps>
+
+                            <!-- Étape de civilités -->
+                            <o:stepPanel id="civility">
+                                <ui:insert name="agriculteurCivility">
+                                    <ui:include src="/demo/agriculteur/includes/agriculteurStepCivility.xhtml" />
+                                </ui:insert>
+
+                                <o:buttonSet>
+                                    <o:backButton />
+                                    <o:nextStepButton />
+                                </o:buttonSet>
+                            </o:stepPanel>
+
+                            <!-- Étape adresse -->
+                            <o:stepPanel id="address">
+                                <ui:insert name="agriculteurAddress">
+                                    <ui:include src="/demo/agriculteur/includes/agriculteurStepAddress.xhtml" />
+                                </ui:insert>
+
+                                <o:buttonSet>
+                                    <o:previousStepButton />
+                                    <o:nextStepButton />
+                                </o:buttonSet>
+                            </o:stepPanel>
+
+                            <!-- Étape activité -->
+                            <o:stepPanel id="activity">
+                                <ui:insert name="agriculteurActivity">
+                                    <ui:include src="/demo/agriculteur/includes/agriculteurStepActivity.xhtml" />
+                                </ui:insert>
+
+                                <o:buttonSet>
+                                    <o:previousStepButton />
+                                    <o:nextStepButton />
+                                </o:buttonSet>
+                            </o:stepPanel>
+
+                            <!-- Étape parcelles -->
+                            <o:stepPanel id="parcelles">
+                                <ui:insert name="parcelleSlaveList">
+                                    <o:slaveList id="parcelleSlaveList" controllerRef="parcelleSLC">
+                                        <ui:include src="/demo/parcelle/includes/parcellesList.xhtml" />
+                                        <o:newLineButton label="#{Messages['parcelle.add.label']}"/>
+                                    </o:slaveList>
+                                </ui:insert>
+
+                                <o:buttonSet>
+                                    <o:previousStepButton />
+                                    <o:saveButton/>
+                                    <o:saveAndCloseButton />
+                                </o:buttonSet>
+                            </o:stepPanel>
+                        </o:wizardPanels>
+                    </o:vcontrols>
+                </o:form>
+            </o:boxBody>
+        </o:box>
+    </ui:define> 
+</ui:composition>

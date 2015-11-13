@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets" 
+                xmlns:o="http://orion.agriculture-gouv.fr/standard">
+
+    <o:control>
+        <o:label>
+            #{Messages['agriculteur.address.shortLabel']}
+        </o:label>
+        <o:outputText id="adresseAgriculteur"
+                      title="#{Messages['agriculteur.address.shortLabel']}"
+                      value="#{agriculteur.adresse1}"
+                      />
+    </o:control>
+    <o:control>
+        <o:label>
+            #{Messages['agriculteur.zipCode.shortLabel']}
+        </o:label>
+        <o:outputText id="zipCodeAgriculteur"
+                      title="#{Messages['agriculteur.zipCode.shortLabel']}"
+                      value="#{agriculteur.codePostal}" 
+                      />
+    </o:control>
+</ui:composition>

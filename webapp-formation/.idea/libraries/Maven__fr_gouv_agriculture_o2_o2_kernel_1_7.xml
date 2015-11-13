@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: fr.gouv.agriculture.o2:o2-kernel:1.7">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/o2/o2-kernel/1.7/o2-kernel-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/o2/o2-kernel/1.7/o2-kernel-1.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/gouv/agriculture/o2/o2-kernel/1.7/o2-kernel-1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

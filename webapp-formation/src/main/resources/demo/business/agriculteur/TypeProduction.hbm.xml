@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+<!-- 
+    Created by the Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="fr.gouv.agriculture.pro.demo.business.production.TypeProduction" 
+    table="TYPE_PRODUCTION"
+    lazy="false"
+    batch-size="10"
+	dynamic-update="true"
+    optimistic-lock="dirty"
+>
+
+	<cache usage="nonstrict-read-write"/>
+    <id
+        name="id"
+        type="long"
+        column="TPROD_CDN"
+    >
+        <generator class="native" />
+    </id>
+
+   
+
+    <property
+        name="libelle"
+        type="java.lang.String"
+        column="TPROD_LIB_LB"
+        length="50"
+    />
+    <property
+        name="rfa"
+        type="java.lang.String"
+        column="TPROD_RFA"
+        length="20"
+    />
+
+
+</class>
+</hibernate-mapping>

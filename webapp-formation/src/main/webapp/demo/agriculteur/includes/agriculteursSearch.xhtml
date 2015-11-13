@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets" 
+                xmlns:o="http://orion.agriculture-gouv.fr/standard"
+                xmlns:oq="http://orion.agriculture-gouv.fr/query"
+                xmlns:co="http://orion.agriculture-gouv.fr/core">
+
+    <o:row>
+        <o:col3>
+            <h3>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursSearch.help']}</h3>                        
+            <p align="justify">#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursSearch.help.1']}</p>
+        </o:col3>
+        <o:col9>
+            <oq:queryForm var="query" controllerRef="agriculteurQFPC" prefVar="pref">
+                <o:hcontrols>
+                    <ui:insert name="agriculteursSearchPreferencesLoad">
+                        <ui:include src="/demo/agriculteur/includes/agriculteursSearchPreferencesLoad.xhtml" />
+                    </ui:insert>
+
+                    <o:fieldset id="agriculteursSearch">
+                        <o:legend>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursSearch.legend']}</o:legend>
+                        <oq:disjunction>
+                            <o:control>
+                                <o:label>#{Messages['agriculteur.lastName.shortLabel']}</o:label>
+                                <oq:expression target="nom" alias="name">
+                                    <oq:operators>
+                                        <oq:inactive/>
+                                        <oq:equals />
+                                        <oq:contains/>
+                                        <oq:containsCaseSensitive />
+                                        <oq:startsWith/>
+                                        <oq:endsWith />
+                                    </oq:operators>
+                                    <o:valueComplete id="agriculteurName" placeholder="#{Messages['agriculteur.lastName.shortLabel']}"
+                                                     controllerRef="agriculteurNameACC"
+                                                     minlength="3"
+                                                     value="#{query['name']}"
+                                                     />
+                                </oq:expression>
+                            </o:control>
+                            <oq:conjunction>
+                                <o:control>
+                                    <o:label>#{Messages['agriculteur.zipCode.shortLabel']}</o:label>
+                                    <oq:expression target="codePostal" alias="zipCodeMin">
+                                        <oq:operators>
+                                            <oq:inactive/>
+                                            <oq:greaterThan/>
+                                            <oq:greaterEqualsThan/>
+                                        </oq:operators>
+                                        <o:inputText id="zipCodeMin" title="Code postal de l'agriculteur" value="#{query['zipCodeMin']}"/>
+                                    </oq:expression>
+                                </o:control>
+                                <o:control>
+                                    <o:label>#{Messages['agriculteur.zipCode.shortLabel']}</o:label>
+                                    <oq:expression target="codePostal" alias="zipCodeMax">
+                                        <oq:operators>
+                                            <oq:inactive/>
+                                            <oq:lessThan/>
+                                            <oq:lessEqualsThan/>
+                                        </oq:operators>
+                                        <o:inputText id="zipCodeMax" title="Code postal de l'agriculteur" value="#{query['zipCodeMax']}"/>
+                                    </oq:expression>
+                                </o:control>
+                            </oq:conjunction>
+                        </oq:disjunction>
+                        <o:buttonSet>
+                            <oq:executeQueryButton>
+                                <co:ajax execute="@form" render="agriculteursListTable"/>
+                            </oq:executeQueryButton>
+                        </o:buttonSet>
+                    </o:fieldset>
+
+                    <ui:insert name="agriculteursSearchPreferencesSave">
+                        <ui:include src="/demo/agriculteur/includes/agriculteursSearchPreferencesSave.xhtml" />
+                    </ui:insert>
+                </o:hcontrols>
+            </oq:queryForm>  
+        </o:col9>
+    </o:row>
+</ui:composition>

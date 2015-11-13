@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition template="/template/core-page.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:o="http://orion.agriculture-gouv.fr/standard">
+
+    <ui:param name="pageLabel" value="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.guide.libelle']}"/>
+
+    <ui:define name="title">
+        #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.guide.libelle']}
+    </ui:define>
+
+    <ui:define name="page-header" />
+
+    <ui:define name="content">  
+        <o:list controllerRef="typeAgriculteurLC" maxObjects="50"  >
+            <o:table  id="typeAgriculteurListTable" title="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.guide.tooltip']}">
+                <o:thead>
+                    <o:tr>
+                        <o:th id="typeAgriculteurListTableControls" colspan="8">
+                            <o:localFilter/>
+                        </o:th>
+                    </o:tr>
+                    <o:tr data="true" >                                 
+                        <o:th id="typeAgriculteurSelector" />                                
+                        <o:th id="typeAgriculteurLibelle" sortable="true" moveable="false">
+                            #{Messages['agriculteur.type.shortLabel']}
+                        </o:th>                       
+                    </o:tr>
+                </o:thead>
+                <o:tbody>
+                    <o:repeat maxIt="10" var="typeAgriculteur">
+                        <o:fragment>
+                            <o:tr data="true">    
+                                <o:td headers="typeAgriculteurSelector">
+                                    <o:selector/>
+                                </o:td>                                       
+                                <o:td headers="typeAgriculteurLibelle">
+                                    #{typeAgriculteur.libelle}
+                                </o:td>                             
+                            </o:tr>
+                        </o:fragment>
+                    </o:repeat>
+                </o:tbody>
+            </o:table>            
+            <ui:include src="/common/list-pagination.xhtml"/>
+            <o:buttonSet >
+                <o:askOpenerForAssignmentButton skipValidation="false" actionRef="fr.gouv.agriculture.orion.action.business.assignment.AskOpenerForAssignationAction"/>
+            </o:buttonSet>
+        </o:list>
+    </ui:define>
+</ui:composition>

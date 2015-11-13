@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<!-- 
+		Created by the Middlegen Hibernate plugin
+		
+            http://boss.bekk.no/boss/middlegen/
+            http://hibernate.sourceforge.net/
+    -->
+    <class name="fr.gouv.agriculture.pro.demo.business.agriculteur.Agriculteur"
+       table="AGRICULTEUR" 
+       dynamic-update="true" 
+       optimistic-lock="dirty"
+       lazy="false"
+       batch-size="60"
+    >
+
+
+        <id name="id" type="long" column="AGR_CDN">
+            <generator class="native" />
+        </id>
+
+        <property name="nom" type="java.lang.String" column="AGR_NOM_LB"
+                          not-null="true" length="50" />
+
+        <property name="prenom" type="java.lang.String"
+                          column="AGR_PRENOM_LB" not-null="true" length="50" />
+
+        <property name="adresse1" type="java.lang.String"
+                          column="AGR_ADR1_LB" length="100" />
+
+        <property name="adresse2" type="java.lang.String"
+                          column="AGR_ADR2_LB" length="100" />
+
+        <property name="actif" type="boolean" column="AGR_ACTIF_ON"
+                          length="2" />
+
+        <property name="codePostal" type="java.lang.String"
+                          column="AGR_CODPOS_LB" length="5" />
+			
+		 
+        <property 
+            name="nbParcelles" 
+            formula="(select count(*) from PARCELLE where PARCELLE.AGR_CDN = AGR_CDN)" 
+            optimistic-lock="false"
+            update="false"
+            insert="false"/>
+		
+        <property 
+            name="surfaceTotale" 
+            formula="(select sum(PARCELLE.PAR_SURFACE_INT) from PARCELLE where PARCELLE.AGR_CDN = AGR_CDN)" 
+            optimistic-lock="false"
+            update="false"
+            insert="false"/>
+ 
+		
+			
+        <!-- bi-directional one-to-many association to Parcelle -->
+        <bag name="parcelles" lazy="true" inverse="true" order-by="PAR_LIB_LB asc"
+                     cascade="all">
+            <key>
+                <column name="AGR_CDN" />
+            </key>
+            <one-to-many class="fr.gouv.agriculture.pro.demo.business.parcelle.Parcelle" />
+        </bag>
+
+        <!-- uni-directional many-to-one association to Agriculteur -->
+        <many-to-one name="agriculteur"
+                             class="fr.gouv.agriculture.pro.demo.business.agriculteur.Agriculteur">
+            <column name="AGR_PERE_CDN" />
+        </many-to-one>
+ 
+        <!-- uni-directional many-to-one association to EtatAgriculteur -->
+        <many-to-one name="etatAgriculteur"
+                             class="fr.gouv.agriculture.pro.demo.business.agriculteur.EtatAgriculteur">
+            <column name="ETAT_CDN" />
+        </many-to-one>
+        
+        <!-- uni-directional many-to-one association to TypeAgriculteur -->
+        <many-to-one name="typeAgriculteur"
+                             class="fr.gouv.agriculture.pro.demo.business.agriculteur.TypeAgriculteur">
+            <column name="TYPE_CDN" />
+        </many-to-one>
+
+
+    </class>
+    <filter-def name="dateCouranteFilterCollectionLevel">
+        <filter-param name="dateCourante" type="date" />
+    </filter-def>
+</hibernate-mapping>

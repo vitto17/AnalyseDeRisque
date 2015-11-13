@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets" 
+                xmlns:o="http://orion.agriculture-gouv.fr/standard">
+
+    <o:control>
+        <o:label>
+            #{Messages['agriculteur.lastName.shortLabel']}
+        </o:label>
+        <o:inputText id="lastNameAgriculteur"
+                     title="#{Messages['agriculteur.lastName.shortLabel']}"
+                     value="#{agriculteur.nom}" 
+                     required="true" size="4" />
+    </o:control>
+    <o:control >
+        <o:label>
+            #{Messages['agriculteur.firstName.shortLabel']}
+        </o:label>
+        <o:inputText id="firstNameAgriculteur"
+                     title="#{Messages['agriculteur.firstName.shortLabel']}"
+                     value="#{agriculteur.prenom}"
+                     required="true"  size="2" />
+    </o:control>
+    <o:control >
+        <o:label>Etat Agriculteur</o:label>
+        <o:comboBox id="etatAgriclteurChoice"
+                    value="#{agriculteur.etatAgriculteur}"
+                    displayLabelProperty="libelle"
+                    controllerRef="etatAgriculteurLC"
+                    title="Sélectionner les etats de l'agriculteur">
+        </o:comboBox>
+    </o:control>
+</ui:composition>

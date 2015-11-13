@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition template="/template/core-page.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:o="http://orion.agriculture-gouv.fr/standard">
+
+    <ui:param name="pageLabel" value="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.label']}"/>
+
+    <ui:define name="title">
+        #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.page.title']}
+    </ui:define>
+
+    <ui:define name="content">
+        <o:list controllerRef="agriculteurLC" maxObjects="500" >
+            <o:box folded="true">
+                <o:boxHeader><h3>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.search.box.header']}</h3></o:boxHeader>
+                <o:boxBody>
+                    <ui:insert name="agriculteursSearch">
+                        <ui:include src="/demo/agriculteur/includes/agriculteursSearch.xhtml" />
+                    </ui:insert>
+                </o:boxBody>
+                <o:boxAlt>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.search.box.alt']}</o:boxAlt>
+            </o:box>
+
+            <o:box>
+                <o:boxHeader><h3>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.box.header']}</h3></o:boxHeader>
+                <o:boxBody>
+                    <ui:insert name="agriculteursTable" >
+                        <ui:include src="/demo/agriculteur/includes/agriculteursListTable.xhtml" />
+                    </ui:insert>
+                    <o:buttonSet>
+                        <o:reportButton reportId="simple-exports-agriculteurs" label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.export.csv.label']}" /> 
+                        <o:dropdownButton label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.simple.export.label']}">
+                            <o:reportAction label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.export.csv.label']}" reportId="simple-exports-agriculteurs"/> 
+                            <o:reportAction label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.export.xml.label']}" reportId="simple-exports-agriculteurs" format="fr.gouv.agriculture.o2.io.format.XmlFormat"/> 
+                            <o:reportAction label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.export.txt.label']}" reportId="simple-exports-agriculteurs" format="fr.gouv.agriculture.o2.io.format.TxtFormat"/> 
+                        </o:dropdownButton>
+                        <o:dropdownButton label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.templated.export.jasper.label']}">
+                            <o:reportAction label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.export.pdf.label']}" reportId="templated-jasper-exports-agriculteurs"/> 
+                            <o:reportAction label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.export.odt.label']}" reportId="templated-jasper-exports-agriculteurs" format="fr.gouv.agriculture.o2.io.format.OdtFormat"/>
+                        </o:dropdownButton>
+                        <o:dropdownButton label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.templated.export.libreoffice.merge.label']}">
+                            <o:reportAction label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.export.pdf.label']}" reportId="templated-libreofficemerge-exports-agriculteurs" format="fr.gouv.agriculture.o2.io.format.PdfFormat"/> 
+                            <o:reportAction label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteurs.export.odt.label']}" reportId="templated-libreofficemerge-exports-agriculteurs" format="fr.gouv.agriculture.o2.io.format.OdtFormat"/>
+                        </o:dropdownButton>
+                        <o:reportsButton contextId="agriculteursExport" />
+                    </o:buttonSet>
+                </o:boxBody>
+                <o:boxAlt>
+                    #{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursList.box.alt']}
+                </o:boxAlt>
+            </o:box>
+        </o:list>
+    </ui:define>
+
+    <ui:define name="javascript">
+
+    </ui:define>
+</ui:composition>

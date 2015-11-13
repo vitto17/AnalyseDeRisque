@@ -1,0 +1,36 @@
+[Server@24d46ca6]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@24d46ca6]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@24d46ca6]: Startup sequence initiated from main() method
+[Server@24d46ca6]: Could not load properties from file
+[Server@24d46ca6]: Using cli/default properties only
+[Server@24d46ca6]: Initiating startup sequence...
+[Server@24d46ca6]: Server socket opened successfully in 4 ms.
+[Server@24d46ca6]: Database [index=0, id=0, db=file:formation_orion_db_files/dbdemo, alias=demo] opened sucessfully in 550 ms.
+[Server@24d46ca6]: Startup sequence completed in 555 ms.
+[Server@24d46ca6]: 2015-02-16 15:31:22.953 HSQLDB server 2.3.0 is online on port 9001
+[Server@24d46ca6]: To close normally, connect and execute SHUTDOWN SQL
+[Server@24d46ca6]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@24d46ca6]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@24d46ca6]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@24d46ca6]: Startup sequence initiated from main() method
+[Server@24d46ca6]: Could not load properties from file
+[Server@24d46ca6]: Using cli/default properties only
+[Server@24d46ca6]: Initiating startup sequence...
+[Server@24d46ca6]: Server socket opened successfully in 31 ms.
+[Server@24d46ca6]: Database [index=0, id=0, db=file:formation_orion_db_files/dbdemo, alias=demo] opened sucessfully in 559 ms.
+[Server@24d46ca6]: Startup sequence completed in 592 ms.
+[Server@24d46ca6]: 2015-02-16 16:33:36.326 HSQLDB server 2.3.0 is online on port 9001
+[Server@24d46ca6]: To close normally, connect and execute SHUTDOWN SQL
+[Server@24d46ca6]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@24d46ca6]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@24d46ca6]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@24d46ca6]: Startup sequence initiated from main() method
+[Server@24d46ca6]: Could not load properties from file
+[Server@24d46ca6]: Using cli/default properties only
+[Server@24d46ca6]: Initiating startup sequence...
+[Server@24d46ca6]: Server socket opened successfully in 4 ms.
+[Server@24d46ca6]: Database [index=0, id=0, db=file:formation_orion_db_files/dbdemo, alias=demo] opened sucessfully in 390 ms.
+[Server@24d46ca6]: Startup sequence completed in 394 ms.
+[Server@24d46ca6]: 2015-02-16 16:33:40.708 HSQLDB server 2.3.0 is online on port 9001
+[Server@24d46ca6]: To close normally, connect and execute SHUTDOWN SQL
+[Server@24d46ca6]: From command line, use [Ctrl]+[C] to abort abruptly

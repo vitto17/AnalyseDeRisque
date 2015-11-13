@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets" 
+                xmlns:o="http://orion.agriculture-gouv.fr/standard"
+                xmlns:oq="http://orion.agriculture-gouv.fr/query">
+
+    <o:fieldset id="agriculteurSearchPreferencesLoad">
+        <o:legend>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursSearch.preferences.load']}</o:legend>
+        <o:control>
+            <o:inline>
+                <o:label>#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursSearch.preferences.name']}</o:label>
+                <o:comboBox id="agriculteursQueryPreferencesList" 
+                            displayLabelProperty="name"
+                            controllerRef="agriculteurQPLC" 
+                            value="#{pref.currentQueryPreference}" 
+                            title="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursSearch.preferences.load.title']}" 
+                            nullable="true"/>
+                <oq:applyQueryPreferenceButton />
+                <o:modifyButton label="#{Messages['fr.gouv.agriculture.pro.demo.ihm.agriculteursSearch.preferences.button.label']}" outcome="queryPrefManagement" />
+            </o:inline>
+        </o:control>
+    </o:fieldset>
+</ui:composition>

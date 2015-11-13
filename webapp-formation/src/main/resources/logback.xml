@@ -1,0 +1,82 @@
+<!-- For assistance related to logback-translator or configuration files 
+in general, please contact the logback user mailing list at http://www.qos.ch/mailman/listinfo/logback-user. 
+For professional support please see http://www.qos.ch/shop/products/professionalSupport -->
+<configuration scan="true" scanPeriod="30 seconds" >
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <pattern>%date{HH:mm:ss.SSS} %5level %logger{15} - %message%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="rollingFile"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>../logs/webapp-formation.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Keep only 10 archives -->
+            <maxHistory>10</maxHistory>
+            <!-- rollover daily -->
+            <fileNamePattern>../logs/logs-archives/webapp-formation-%d{yyyy-MM-dd}.%i.log.zip
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 10MB -->
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%thread] %date{HH:mm:ss.SSS} - %level - %logger{15} - %msg%rEx%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="habilitationFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>../logs/webapp-formation-habilitation.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Keep only 10 archives -->
+            <maxHistory>10</maxHistory>
+            <!-- rollover daily -->
+            <fileNamePattern>../logs/logs-archives/webapp-formation-habilitation-%d{yyyy-MM-dd}.%i.log.zip
+            </fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 10MB -->
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%thread] %date{HH:mm:ss.SSS} - %level - %logger{15}.%M - %msg%rEx%n</pattern>
+        </encoder>
+    </appender>
+	
+    <!--<logger name="org.hibernate" level="WARNING" />-->
+    <logger name="org.hibernate.SQL" level="DEBUG" />    
+    <logger name="org.hibernate.tool.hbm2ddl" level="DEBUG" />    
+    <logger name="org.hibernate.type" level="DEBUG" />    
+    <logger name="org.hibernate.jdbc" level="DEBUG" />   
+    <logger name="org.hibernate.transaction" level="DEBUG" />  
+      
+    <logger name="org.quartz" level="ERROR" />
+    <!--<logger name="org.quartz.core.QuartzSchedulerThread" level="ERROR" />-->
+    
+    <logger name="org.springframework" level="ERROR" />
+    <logger name="fr.gouv.orion.o2.kernel" level="WARNING" />
+    
+    <logger name="fr.gouv.agriculture.orion.view.faces" level="INFO" />
+    <logger name="javax.enterprise.resource.webcontainer.jsf.application" level="INFO" />
+    
+    <!--<logger name="fr.gouv.agriculture.orion.report.processor" level="ERROR" />-->
+    <logger name="fr.gouv.agriculture.orion.report" level="ERROR"/>
+    
+    <logger name="fr.gouv.agriculture.orion.factory" level="ERROR"/>   
+    <logger name="fr.gouv.agriculture.orion.i18n" level="ERROR"/>   
+    <!--<logger name="fr.gouv.agriculture.orion.i18n.DefaultI18nService" level="ERROR"/>-->   
+    
+    <logger name="fr.gouv.agriculture.orion.security.authorization" level="WARNING">
+        <appender-ref ref="habilitationStdout"/>
+        <appender-ref ref="habilitationFile"/>
+    </logger>
+        
+    <root>
+        <appender-ref ref="stdout" />
+        <appender-ref ref="rollingFile" /> 
+    </root>
+</configuration>
